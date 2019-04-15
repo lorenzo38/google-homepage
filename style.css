@@ -1,8 +1,18 @@
-html{
-    height: 100%;
-}
 
-google-form {
-   justify-content: center;
-    background-color: bisque;
+.google-form{
+    display: block;
+    height: 20em;
+    width: 45em;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 12em;
+    left: 20em;
+    text-align: center;
+}
+.google-form h1{
+    font-size:6em;
+    color:rgb(65, 124, 65);
+}
+input {
+    width: 40em;
 }
